@@ -9,6 +9,9 @@ const person = {
     ['key' + (1 + 3)] : 'Computed Key',
     greet() {
         console.log('greet from person')
+    },
+    info() {
+        console.info('Информация о человеке по имени:', this.name)
     }
 }
 //const ageKey = 'age'
@@ -26,9 +29,28 @@ const person = {
 // console.log(person['key_4'])
 
 //Деструктуризация
-const name = person.name
-const age = person.age
-const languages = person.languages
-//Можно записать в строку , деструктуризировать
-const {name, age, languages} = person
-console.log(name, age, languages)
+// const name = person.name
+// const age = person.age
+// const languages = person.languages
+// //Можно записать в строку , деструктуризировать
+// const {name, age, languages} = person
+// console.log(name, age, languages)
+
+//Получить ключи объекта
+// for (let key in person) {
+//     if (person.hasOwnProperty(key)) {
+//     console.log('key: ',key)
+//     console.log('value: ', person[key])
+// }}
+// Массив из ключей объекта
+// const keys = Object.keys(person)
+// console.log(keys)
+//
+// const keys = Object.keys(person)
+// keys.forEach((key) => {
+//     console.log('key: ',key)
+//     console.log('value: ', person[key])
+// })
+
+// Контекст( CONTEXT)
+// person.info()
