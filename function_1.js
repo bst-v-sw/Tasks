@@ -54,6 +54,25 @@ function sumAll(...all) {
 const res = sumAll(1, 2, 3, 4, 5)
 console.log(res)
 
+// Передача значения по ссылке
+const personOne = {
+    name: 'Bob' ,
+    age: 21
+}
+function increasePersonAge(person) {
+    person.age += 1
+    return person
+}
+increasePersonAge(personOne)
+console.log(personOne.age)
+
+//callback функции
+console.log('Привет')
+function  printMyName() {
+    console.log('Vadim')
+}
+setTimeout(printMyName, 2000)
+
 
 
 
