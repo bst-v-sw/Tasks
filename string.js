@@ -8,3 +8,13 @@ function getAge () {
 //const output = 'Привет меня зовут'+ name +' и мой возраст' + age + 'лет'
 const output =`Привет меня зовут ${name} и мой возраст ${getAge()}`
 console.log(output)
+
+//Конкатенация строк
+const value = 'Hello,' + ' ' + 'World'
+console.log(value)
+
+//Шаблонные строки
+const hello = 'HELLO'
+const world = 'WORLD'
+const greeting = `${hello} ${world}`
+console.log(greeting)
