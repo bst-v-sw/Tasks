@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="513dc5f4-861f-4f2b-93ce-ae9d50c02d29" name="Changes" comment="git commit -m 'Task1'">
+      <change afterPath="$PROJECT_DIR$/operators_1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/function_1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/methods_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/methods_1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/object_2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +48,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Node.js.function_1.js">
+  <component name="RunManager" selected="Node.js.operators_1.js">
     <configuration name="Task1.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="Task1.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="array_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array_1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="function_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/function_1.js" working-dir="$PROJECT_DIR$">
@@ -69,13 +64,16 @@
     <configuration name="object_2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/object_2.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="operators_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/operators_1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.operators_1.js" />
         <item itemvalue="Node.js.function_1.js" />
         <item itemvalue="Node.js.methods_1.js" />
         <item itemvalue="Node.js.object_2.js" />
         <item itemvalue="Node.js.object_1.js" />
-        <item itemvalue="Node.js.array_1.js" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +93,8 @@
       <workItem from="1660631362580" duration="6283000" />
       <workItem from="1660647846896" duration="5625000" />
       <workItem from="1660709996788" duration="11255000" />
-      <workItem from="1660800264162" duration="2029000" />
+      <workItem from="1660800264162" duration="2835000" />
+      <workItem from="1660804745638" duration="2315000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m 'Task1'">
       <created>1660540667370</created>
