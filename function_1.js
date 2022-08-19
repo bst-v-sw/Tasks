@@ -1,4 +1,4 @@
-// 1.Функции
+1.Функции
 // Практика с функиями
 
 //function declaration
@@ -73,6 +73,19 @@ function  printMyName() {
 }
 setTimeout(printMyName, 2000)
 
+//Деструктуризция параметров
+const userProfile = {
+    name: 'VADIM',
+    commentsQty: 25,
+    hasSignedAgreement: false,
+}
+const  userInfo = ({ name, commentsQty }) => {
+    if (!commentsQty) {
+        return `User ${name} has no comments`
+    }
+    return `User ${name} has ${commentsQty} comments`
+}
+console.log(userInfo(userProfile))
 
 
 
