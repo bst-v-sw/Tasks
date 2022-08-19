@@ -1,5 +1,5 @@
 //1.Переменные
-camelCase
+//camelCase
 const name = 'Vadim'
 const lastName = 'Buzmakov' // string
 let age = 25 //number
@@ -48,7 +48,7 @@ const currentYear = 2022
 const isFullAge = currentYear - birthYear >= fullAge
 console.log(isFullAge)
 
-6.Условные операторы
+//6.Условные операторы
 const courseStatus = 'ready' // ready, fail ,pending
 if (courseStatus === 'ready') {
     console.log('Курс уже готов и его можно проходить')
@@ -60,7 +60,12 @@ if (courseStatus === 'ready') {
 // //Тернарный оператор
 const isReady = true
 isReady ? console.log('Все готово!!!') : ('Все не готово!!!')
-
+//
+const value = 11
+value
+    ? console.log('условие истинно')
+    : console.log('условие ложно')
+//
 //8.Функции
 function calculateAge(year) {
     return 2022 - year
@@ -117,5 +122,19 @@ person.isProgrammer = true
 console.log(person)
 person.greet()
 
-
+//Условные инструкции. Инстукция switch
+const month = 12
+switch (month) {
+    case 12 :
+        console.log('декабрь')
+        break
+    case 1:
+        console.log('январь')
+        break
+    case 2:
+        console.log('февраль')
+        break
+    default:
+        console.log('Это не зимний месяц')
+}
 
