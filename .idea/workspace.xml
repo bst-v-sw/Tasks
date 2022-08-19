@@ -45,20 +45,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Node.js.string.js">
+  <component name="RunManager" selected="Node.js.base_1.js">
     <configuration name="Task1.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="Task1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="array_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array_1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="base_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/base_1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="function_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/function_1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="methods_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods_1.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <configuration name="object_2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/object_2.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="operators_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/operators_1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="string.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/string.js" working-dir="$PROJECT_DIR$">
@@ -66,11 +66,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.string.js" />
-        <item itemvalue="Node.js.operators_1.js" />
+        <item itemvalue="Node.js.base_1.js" />
         <item itemvalue="Node.js.function_1.js" />
-        <item itemvalue="Node.js.methods_1.js" />
         <item itemvalue="Node.js.object_2.js" />
+        <item itemvalue="Node.js.array_1.js" />
+        <item itemvalue="Node.js.string.js" />
       </list>
     </recent_temporary>
   </component>
@@ -92,6 +92,7 @@
       <workItem from="1660709996788" duration="11255000" />
       <workItem from="1660800264162" duration="2835000" />
       <workItem from="1660804745638" duration="4238000" />
+      <workItem from="1660882948711" duration="2485000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m 'Task1'">
       <created>1660540667370</created>
