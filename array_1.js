@@ -77,3 +77,28 @@ const allBudget = people
 }, 0)
 console.log(allBudget)
 
+//Метод For Each
+const myArray = [1, 2, 3]
+console.log(myArray) // [1, 2, 3]
+
+myArray.forEach(el => console.log(el * 2))
+
+console.log(myArray)
+
+//Метод map
+const myArray = [1, 2, 3]
+console.log(myArray) // [1, 2, 3]
+const newArray = myArray.map( el => el * 3)
+
+console.log(myArray) // [1, 2, 3]
+console.log(newArray) // [3, 6, 9]
+
+//Деструктуризация массивов
+const fruits = ['apple', 'banana']
+const [fruitOne, fruitTwo] = fruits
+
+console.log(fruitOne)
+console.log(fruitTwo)
+
+
+
