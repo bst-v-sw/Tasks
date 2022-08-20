@@ -18,3 +18,9 @@ const hello = 'HELLO'
 const world = 'WORLD'
 const greeting = `${hello} ${world}`
 console.log(greeting)
+
+//Цикл for of для строки
+const  myString ='HEY'
+for (const  letter of myString) {
+    console.log(letter)
+}
