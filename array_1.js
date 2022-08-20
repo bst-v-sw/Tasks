@@ -111,6 +111,12 @@ const myArray = ['first','second','third']
 myArray.forEach((element, index) => {
     console.log(element, index)
 })
+// Цикл for in для массивов
+const myArray = [true, 10,'abc', null]
+
+for (const key in myArray) {
+    console.log(myArray[key])
+}
 
 
 
