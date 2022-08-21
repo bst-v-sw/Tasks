@@ -1,5 +1,5 @@
-// Практика импорта экспорта данных между модулями
+// Импорт и экспорт модулей
 const myName = () => {
-    console.log('VADIM')
+    console.log('Привет')
 }
 export default myName

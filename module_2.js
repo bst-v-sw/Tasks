@@ -1,3 +1,3 @@
-import printMyName from  './module_1.js'
+import myName from  './module_1.js'
 
-console.log(printMyName) //VADIM
+myName()//VADIM
