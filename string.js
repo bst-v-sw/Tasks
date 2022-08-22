@@ -24,3 +24,15 @@ const  myString ='HEY'
 for (const  letter of myString) {
     console.log(letter)
 }
+//Цикл while . Извлечь из строки подстроку
+const myString = ( text, length ) => {
+    let i = 0 ;
+    let result = '';
+    while ( i <= length - 1) {
+        result = `${result}${text[i]}`;
+        i= i + 1 ;
+    }
+    return result
+}
+console.log(myString('Until lambs become lions' , 14))
+

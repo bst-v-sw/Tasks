@@ -1,5 +1,4 @@
 // Импорт и экспорт модулей
-const myName = () => {
+export function myName() {
     console.log('Привет')
 }
-export default myName

@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="513dc5f4-861f-4f2b-93ce-ae9d50c02d29" name="Changes" comment="git commit -m 'Task1'">
-      <change beforePath="$PROJECT_DIR$/object_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/object_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/module_1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +97,7 @@
       <workItem from="1660804745638" duration="4238000" />
       <workItem from="1660882948711" duration="2756000" />
       <workItem from="1660975919485" duration="2355000" />
-      <workItem from="1661061163706" duration="1995000" />
+      <workItem from="1661061163706" duration="3502000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m 'Task1'">
       <created>1660540667370</created>
