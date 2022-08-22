@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="513dc5f4-861f-4f2b-93ce-ae9d50c02d29" name="Changes" comment="git commit -m 'Task1'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/module_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string.js" beforeDir="false" afterPath="$PROJECT_DIR$/string.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Node.js.module_2.js">
+  <component name="RunManager" selected="Node.js.string.js">
     <configuration name="Task1.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="Task1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -69,9 +69,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.string.js" />
         <item itemvalue="Node.js.module_2.js" />
         <item itemvalue="Node.js.array_1.js" />
-        <item itemvalue="Node.js.string.js" />
         <item itemvalue="Node.js.object_2.js" />
         <item itemvalue="Node.js.base_1.js" />
       </list>
@@ -98,6 +98,7 @@
       <workItem from="1660882948711" duration="2756000" />
       <workItem from="1660975919485" duration="2355000" />
       <workItem from="1661061163706" duration="3502000" />
+      <workItem from="1661144409917" duration="1635000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m 'Task1'">
       <created>1660540667370</created>

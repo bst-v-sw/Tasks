@@ -50,3 +50,13 @@ const countChars = ( str, char) => {
 }
 console.log(countChars('Until lambs become lions' ,'l'))
 
+//Цикл for для переворота  строки
+const reverseString = (str) => {
+    let result = '' ;
+    for (let i = 0 ; i < str.length ; i += 1) {
+        result =`${str[i]}${result}` ;
+    }
+    return result;
+};
+console.log(reverseString('Rise again and again until lambs become lions'))
+
