@@ -36,3 +36,17 @@ const myString = ( text, length ) => {
 }
 console.log(myString('Until lambs become lions' , 14))
 
+//Цикл while с условием в теле цикла
+const countChars = ( str, char) => {
+    let i = 0 ;
+    let count = 0;
+    while ( i <= str.length) {
+        if ( str[i] === char) {
+            count += 1 ;
+        };
+        i= i + 1 ;
+    }
+    return count ;
+}
+console.log(countChars('Until lambs become lions' ,'l'))
+
