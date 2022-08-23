@@ -5,9 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="513dc5f4-861f-4f2b-93ce-ae9d50c02d29" name="Changes" comment="git commit -m 'Task1'">
+      <change afterPath="$PROJECT_DIR$/my-app/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/tsconfig.spec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/base_1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/methods_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/methods_1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,24 +58,27 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2DNVmD6YMOL1JiP9SqoTGgcyZfD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Node.js.methods_1.js">
     <configuration name="Task1.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="Task1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
@@ -101,7 +131,8 @@
       <workItem from="1661061163706" duration="3502000" />
       <workItem from="1661144409917" duration="2801000" />
       <workItem from="1661157055537" duration="19000" />
-      <workItem from="1661237199881" duration="1300000" />
+      <workItem from="1661237199881" duration="1759000" />
+      <workItem from="1661250520363" duration="1855000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m 'Task1'">
       <created>1660540667370</created>
@@ -128,6 +159,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="git commit -m 'Task1'" />
     <option name="LAST_COMMIT_MESSAGE" value="git commit -m 'Task1'" />
   </component>
