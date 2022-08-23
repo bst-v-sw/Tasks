@@ -157,3 +157,7 @@ const makeItFunny = (str, n) => {
   return result;
 };
 console.log(makeItFunny('I never look back', 2))
+//
+const text ='Привет, мы изучаем JavaScript'
+const reverseText = text.split('').reverse().join(' ')
+console.log(reverseText)
