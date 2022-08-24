@@ -89,27 +89,53 @@ class Animal {
 //     hasTail: true
 //})
 
-class Cat extends Animal {
-    static type = 'CAT'
-    constructor(options){
-        super()
-        this.color = options.color
+// class Cat extends Animal {
+//     static type = 'CAT'
+//     constructor(options){
+//         super()
+//         this.color = options.color
+//     }
+//
+//     get ageInfo() {
+//         return this.age * 7
+//     }
+//     set ageInfo(newAge) {
+//         this.age = newAge
+//     }
+// }
+//
+//     const cat = new Cat({
+//         name: 'Cat',
+//         age : 7,
+//         hasTail: true,
+//         color: 'black'
+//     })
+
+class Component {
+    constructor(selector) {
+        thsi.$el = document.querySelector(selector)
     }
 
-    get ageInfo() {
-        return this.age * 7
+    hide(){
+        this.$el.style.display = 'none'
     }
-    set ageInfo(newAge) {
-        this.age = newAge
+
+    show(){
+        this.$el.style.display = 'black'
     }
 }
+class Box extends Component {
+    constructor(options) {
+        super(options.selector)
 
-    const cat = new Cat({
-        name: 'Cat',
-        age : 7,
-        hasTail: true,
-        color: 'black'
-    })
+        this.$el.style.width = this.$el.style.height = options.size + 'p'
+        this.$el.style.color = options.color
 
-
+    }
+}
+const box1 = new Box({
+    selector: '#box1',
+    size: 100,
+    color: 'red'
+})
 
