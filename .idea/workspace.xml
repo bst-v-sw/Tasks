@@ -7,6 +7,7 @@
     <list default="true" id="513dc5f4-861f-4f2b-93ce-ae9d50c02d29" name="Changes" comment="git commit -m 'Task1'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/object_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/object_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/object_2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Node.js.object_1.js">
+  <component name="RunManager" selected="Node.js.object_2.js">
     <configuration name="Task1.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="Task1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -72,8 +73,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.object_1.js" />
         <item itemvalue="Node.js.object_2.js" />
+        <item itemvalue="Node.js.object_1.js" />
         <item itemvalue="Node.js.async_1.js" />
         <item itemvalue="Node.js.methods_1.js" />
         <item itemvalue="Node.js.base_1.js" />
@@ -108,7 +109,7 @@
       <workItem from="1661318100360" duration="3957000" />
       <workItem from="1661339055843" duration="1367000" />
       <workItem from="1661342511650" duration="151000" />
-      <workItem from="1661413357972" duration="1748000" />
+      <workItem from="1661413357972" duration="3612000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m 'Task1'">
       <created>1660540667370</created>
