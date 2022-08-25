@@ -79,3 +79,15 @@ const logger = {
 // logger.keys.call(person)
 //logger.withParams.call(person, true, true, true)// неограниченное число параметров
 logger.withParams.apply(person, [true, true, true])// только 2 параметра, один всегда массив
+
+
+//Заимствование методов у массивов для прототипов
+let obj = {
+    0: "Hello",
+    1: "world!",
+    length: 2,
+};
+
+obj.join = Array.prototype.join;
+
+console.log (obj.join(',') ) // Hello,world!

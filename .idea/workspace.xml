@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="513dc5f4-861f-4f2b-93ce-ae9d50c02d29" name="Changes" comment="git commit -m 'Task1'">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/async_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/object_1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/object_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/object_2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +54,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Node.js.object_2.js">
+  <component name="RunManager" selected="Node.js.object_1.js">
     <configuration name="Task1.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="Task1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="async_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/async_1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="base_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/base_1.js" working-dir="$PROJECT_DIR$">
@@ -61,22 +67,19 @@
     <configuration name="methods_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods_1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="module_2.mjs" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/module_2.mjs" working-dir="$PROJECT_DIR$">
+    <configuration name="object_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/object_1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="object_2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/object_2.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="string.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/string.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.object_1.js" />
         <item itemvalue="Node.js.object_2.js" />
+        <item itemvalue="Node.js.async_1.js" />
         <item itemvalue="Node.js.methods_1.js" />
         <item itemvalue="Node.js.base_1.js" />
-        <item itemvalue="Node.js.module_2.mjs" />
-        <item itemvalue="Node.js.string.js" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +108,9 @@
       <workItem from="1661157055537" duration="19000" />
       <workItem from="1661237199881" duration="1759000" />
       <workItem from="1661250520363" duration="2118000" />
-      <workItem from="1661318100360" duration="878000" />
+      <workItem from="1661318100360" duration="3957000" />
+      <workItem from="1661339055843" duration="1367000" />
+      <workItem from="1661342511650" duration="151000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m 'Task1'">
       <created>1660540667370</created>

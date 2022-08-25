@@ -1,5 +1,5 @@
-// //Объекты
-// //Получение свойств объекта
+//Объекты
+//Получение свойств объекта
 // const myCity = {
 //     city: 'New York',
 //     popular: true ,
@@ -47,39 +47,35 @@
 // // Циклы for in для объектов
 // const myObject ={
 //     x: 10,
-//     y: true,
-//     z: 'abc'
-// }
-// for (const key in myObject) {
-//     console.log(key, myObject[key])
-// }
-// //forEach для объектов
-// const myObject ={
-//     x: 10,
-//     y: true,
-//     z: 'abc'
-// }
-// Object.keys(myObject).forEach(key => {
-//     console.log(key, myObject[key])
-// })
-
+// //     y: true,
+// //     z: 'abc'
+// // }
+// // for (const key in myObject) {
+// //     console.log(key, myObject[key])
+// // }
+// // //forEach для объектов
+// // const myObject ={
+// //     x: 10,
+// //     y: true,
+// //     z: 'abc'
+// // }
+// // Object.keys(myObject).forEach(key => {
+// //     console.log(key, myObject[key])
+// // })
+//
 //Создание классов
-// const animal = {
-//     name: 'Animal',
-//     age : 5,
-//     hasTail: true
-// }
+const animal = {
+    name: 'Animal',
+    age : 5,
+    hasTail: true
+}
 
 class Animal {
-    static type = 'ANIMAL'
-
     constructor(options) {
         this.name = options.name
         this.age = options.age
         this.hasTail = options.hasTail
-    }
-    voice(){
-        console.log('bark')
+
     }
 }
 
@@ -87,55 +83,56 @@ class Animal {
 //     name: 'Animal',
 //     age : 5,
 //     hasTail: true
-//})
+// })
 
-// class Cat extends Animal {
-//     static type = 'CAT'
-//     constructor(options){
-//         super()
-//         this.color = options.color
-//     }
 //
-//     get ageInfo() {
-//         return this.age * 7
-//     }
-//     set ageInfo(newAge) {
-//         this.age = newAge
-//     }
-// }
+// // class Cat extends Animal {
+// //     static type = 'CAT'
+// //     constructor(options){
+// //         super()
+// //         this.color = options.color
+// //     }
+// //
+// //     get ageInfo() {
+// //         return this.age * 7
+// //     }
+// //     set ageInfo(newAge) {
+// //         this.age = newAge
+// //     }
+// // }
+// //
+// //     const cat = new Cat({
+// //         name: 'Cat',
+// //         age : 7,
+// //         hasTail: true,
+// //         color: 'black'
+// //     })
 //
-//     const cat = new Cat({
-//         name: 'Cat',
-//         age : 7,
-//         hasTail: true,
-//         color: 'black'
-//     })
-
-class Component {
-    constructor(selector) {
-        thsi.$el = document.querySelector(selector)
-    }
-
-    hide(){
-        this.$el.style.display = 'none'
-    }
-
-    show(){
-        this.$el.style.display = 'black'
-    }
-}
-class Box extends Component {
-    constructor(options) {
-        super(options.selector)
-
-        this.$el.style.width = this.$el.style.height = options.size + 'p'
-        this.$el.style.color = options.color
-
-    }
-}
-const box1 = new Box({
-    selector: '#box1',
-    size: 100,
-    color: 'red'
-})
-
+// // class Component {
+// //     constructor(selector) {
+// //         thsi.$el = document.querySelector(selector)
+// //     }
+// //
+// //     hide(){
+// //         this.$el.style.display = 'none'
+// //     }
+// //
+// //     show(){
+// //         this.$el.style.display = 'black'
+// //     }
+// // }
+// // class Box extends Component {
+// //     constructor(options) {
+// //         super(options.selector)
+// //
+// //         this.$el.style.width = this.$el.style.height = options.size + 'p'
+// //         this.$el.style.color = options.color
+// //
+// //     }
+// // }
+// // const box1 = new Box({
+// //     selector: '#box1',
+// //     size: 100,
+// //     color: 'red'
+// // })
+//
