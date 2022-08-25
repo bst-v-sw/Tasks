@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="513dc5f4-861f-4f2b-93ce-ae9d50c02d29" name="Changes" comment="git commit -m 'Task1'">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/async_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/async_1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/object_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/object_1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/object_2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +108,7 @@
       <workItem from="1661318100360" duration="3957000" />
       <workItem from="1661339055843" duration="1367000" />
       <workItem from="1661342511650" duration="151000" />
+      <workItem from="1661413357972" duration="1015000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m 'Task1'">
       <created>1660540667370</created>
