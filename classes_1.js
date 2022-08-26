@@ -1,5 +1,5 @@
 //Наследование классов
-сlass Animal {
+class Animal {
     constructor(name) {
         this.speed = 0;
         this.name = name;
@@ -10,19 +10,18 @@
     }
     stop() {
         this.speed = 0;
-        alert(`${this.name} стоит.`);
+        console.log(`${this.name} стоит.`);
     }
 }
 
-let animal = new Animal("Мой питомец");
-
-class Rabbit {
-    constructor(name) {
-        this.name = name;
-    }
+// Наследуем от Animal указывая "extends Animal"
+class Rabbit extends Animal {
     hide() {
         console.log(`${this.name} прячется!`);
     }
 }
 
-let rabbit = new Rabbit("Мой кролик");
+let rabbit = new Rabbit("Белый кролик");
+
+rabbit.run(5); // Белый кролик бежит со скоростью 5.
+rabbit.hide(); // Белый кролик прячется!
