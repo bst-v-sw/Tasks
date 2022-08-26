@@ -37,15 +37,28 @@
 //     .finally(() => console.log('Finally'))
 
 // Промис при успешном выполнении
-let promise = new Promise(function(resolve, reject) {
-    // эта функция выполнится автоматически, при вызове new Promise
+// let promise = new Promise(function(resolve, reject) {
+//     // эта функция выполнится автоматически, при вызове new Promise
+//
+//     // через 1 секунду сигнализировать, что задача выполнена с результатом "done"
+//     setTimeout(() => resolve('done'), 1000);
+// })
+//
+// //Промисы при ошибке
+// let promise = new Promise(function(resolve, reject) {
+//     // спустя одну секунду будет сообщено, что задача выполнена с ошибкой
+//     setTimeout(() => reject(new Error("Whoops!")), 1000);
+// });
 
-    // через 1 секунду сигнализировать, что задача выполнена с результатом "done"
-    setTimeout(() => resolve('done'), 1000);
-})
+// Использование async/await
+async function f() {
 
-//Промисы при ошибке
-let promise = new Promise(function(resolve, reject) {
-    // спустя одну секунду будет сообщено, что задача выполнена с ошибкой
-    setTimeout(() => reject(new Error("Whoops!")), 1000);
-});
+    let promise = new Promise((resolve, reject) => {
+        setTimeout(() => resolve("готово!"), 1000)
+    });
+
+    let result = await promise; // будет ждать, пока промис не выполнится (*)
+
+    console.log(result); // "готово!"
+}
+f()
