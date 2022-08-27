@@ -123,7 +123,10 @@ const myArray = [true, 10,'abc', null]
 for (const element of myArray) {
     console.log(element)
 }
-
+// Проверка массива instanceof
+let arr = [1, 2, 3];
+console.log( arr instanceof Array ); // true
+console.log( arr instanceof Object ); // true
 
 
 

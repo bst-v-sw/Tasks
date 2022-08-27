@@ -63,8 +63,11 @@
 // rabbit.stop(); // Белый кролик стоит. Белый кролик прячется!
 
 //========================================
+// Проверка класса instanceof
 class Rabbit {}
 let rabbit = new Rabbit();
 
 // это объект класса Rabbit?
 console.log( rabbit instanceof Rabbit ); // true
+//========================
+

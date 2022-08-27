@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="513dc5f4-861f-4f2b-93ce-ae9d50c02d29" name="Changes" comment="git commit -m 'Task1'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/async_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/async_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/array_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/classes_1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +52,17 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Node.js.classes_1.js">
+  <component name="RunManager" selected="Node.js.array_1.js">
     <configuration name="Task1.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="Task1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="array_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/array_1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="async_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/async_1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="classes_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/classes_1.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="methods_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/methods_1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="object_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/object_1.js" working-dir="$PROJECT_DIR$">
@@ -72,11 +73,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.array_1.js" />
         <item itemvalue="Node.js.classes_1.js" />
         <item itemvalue="Node.js.async_1.js" />
         <item itemvalue="Node.js.object_2.js" />
         <item itemvalue="Node.js.object_1.js" />
-        <item itemvalue="Node.js.methods_1.js" />
       </list>
     </recent_temporary>
   </component>
@@ -111,6 +112,8 @@
       <workItem from="1661413357972" duration="4644000" />
       <workItem from="1661432223486" duration="724000" />
       <workItem from="1661497196841" duration="2972000" />
+      <workItem from="1661607025907" duration="280000" />
+      <workItem from="1661608739277" duration="440000" />
     </task>
     <task id="LOCAL-00001" summary="git commit -m 'Task1'">
       <created>1660540667370</created>
