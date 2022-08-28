@@ -31,11 +31,37 @@
 // console.log(person.isAdult)
 
 //Разделить слова в предложении запятыми
-const rw = (data) => {
-    return data
-        .split(".")
-        .map(v => v.trim().split(" ")[0])
-        .join(", ");
-}
-console.log(rw('yfsbl lsndv skdcnk skdvbkj skvbk skdvb wkvvnwlvm')
+// const rw = (data) => {
+//     return data
+//         .split(".")
+//         .map(v => v.trim().split(" ")[0])
+//         .join(", ");
+// }
+// console.log(rw('yfsbl lsndv skdcnk skdvbkj skvbk skdvb wkvvnwlvm')
+//===================================================
+// Методы с JSON
+// let student = {
+//     name: 'John',
+//     age: 30,
+//     isAdmin: false,
+//     courses: ['html', 'css', 'js'],
+//     wife: null
+// };
+//
+// let json = JSON.stringify(student);
+//
+// console.log(typeof json); // мы получили строку!
+//
+// console.log(json);
+//========================
+// число в JSON остаётся числом
+// console.log( JSON.stringify(1) ) // 1
+//
+// // строка в JSON по-прежнему остаётся строкой, но в двойных кавычках
+// console.log( JSON.stringify('test') ) // "test"
+//
+// console.log( JSON.stringify(true) ); // true
+//
+// console.log( JSON.stringify([1, 2, 3]) ); // [1,2,3]
+//=============================
 
