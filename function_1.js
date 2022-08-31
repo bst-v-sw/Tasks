@@ -114,20 +114,43 @@
 // ===========================================
 //Функция, которая заполняет объект данными из другого объекта по разрешенному списку ключей.
 // BEGIN
-const company = {
-    name: null,
-    state: 'moderating',
-};
-
+// const company = {
+//     name: null,
+//     state: 'moderating',
+// };
+//
+// const data = {
+//     name: 'Hexlet',
+//     state: 'published',
+// };
+// function fill(object, keys, data){
+//     const filteredData = keys.length > 0 ? _.pick(data, keys) : data;
+//     Object.assign(object, filteredData);
+// }
+//
+// console.log(fill(company,['name'], data))
+//=========================================
+//Функция, которая выполняет глубокое копирование объектов
+// BEGIN
 const data = {
-    name: 'Hexlet',
-    state: 'published',
+    key: 'value',
+    key2: {
+        key: 'innerValue',
+        innerKey: {
+            anotherKey: 'anotherValue',
+        },
+    },
 };
-function fill(object, keys, data){
-    const filteredData = keys.length > 0 ? _.pick(data, keys) : data;
-    Object.assign(object, filteredData);
-}
+const cloneDeep = (object) => {
+    const result = {};
+    const entries = Object.entries(object);
+    for (const [key, value] of entries) {
+        result[key] = isObject(value) ? cloneDeep(value) : value;
+    }
 
-console.log(fill(company,['name'], data))
+    return result;
+};
+console.log (cloneDeep(data))
+//END
 
 
