@@ -72,8 +72,8 @@
 //     console.log('Vadim')
 // }
 // setTimeout(printMyName, 2000)
-
-//Деструктуризция параметров
+//
+// Деструктуризция параметров
 // const userProfile = {
 //     name: 'VADIM',
 //     commentsQty: 25,
@@ -92,24 +92,42 @@
 // function Rabbit() {}
 //
 // console.log( new Rabbit() instanceof Rabbit ); // true
-//=============================
-//Деструктуризация
+// //=============================
+// //Деструктуризация
+// // BEGIN
+// const result = getSortedName([
+//     { name: 'Bronn', gender: 'male', birthday: '1973-03-23' },
+//     { name: 'Reigar', gender: 'male', birthday: '1973-11-03' },
+//     { name: 'Eiegon', gender: 'male', birthday: '1963-11-03' },
+//     { name: 'Sansa', gender: 'female', birthday: '2012-11-03' },])
+// function getSortedName(users){
+//     const names = [];
+//
+//     for (const { name } of users) {
+//         names.push(name);
+//     }
+//     return names.sort();
+// }
+//
+// console.log (result)
+// END
+// ===========================================
+//Функция, которая заполняет объект данными из другого объекта по разрешенному списку ключей.
 // BEGIN
-const result = getSortedName([
-    { name: 'Bronn', gender: 'male', birthday: '1973-03-23' },
-    { name: 'Reigar', gender: 'male', birthday: '1973-11-03' },
-    { name: 'Eiegon', gender: 'male', birthday: '1963-11-03' },
-    { name: 'Sansa', gender: 'female', birthday: '2012-11-03' },])
-function getSortedName(users){
-    const names = [];
+const company = {
+    name: null,
+    state: 'moderating',
+};
 
-    for (const { name } of users) {
-        names.push(name);
-    }
-    return names.sort();
+const data = {
+    name: 'Hexlet',
+    state: 'published',
+};
+function fill(object, keys, data){
+    const filteredData = keys.length > 0 ? _.pick(data, keys) : data;
+    Object.assign(object, filteredData);
 }
 
-console.log (result)
-// END
+console.log(fill(company,['name'], data))
 
 
