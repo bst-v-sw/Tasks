@@ -132,25 +132,62 @@
 //=========================================
 //Функция, которая выполняет глубокое копирование объектов
 // BEGIN
-const data = {
-    key: 'value',
-    key2: {
-        key: 'innerValue',
-        innerKey: {
-            anotherKey: 'anotherValue',
-        },
-    },
-};
-const cloneDeep = (object) => {
-    const result = {};
-    const entries = Object.entries(object);
-    for (const [key, value] of entries) {
-        result[key] = isObject(value) ? cloneDeep(value) : value;
-    }
-
-    return result;
-};
-console.log (cloneDeep(data))
+// const data = {
+//     key: 'value',
+//     key2: {
+//         key: 'innerValue',
+//         innerKey: {
+//             anotherKey: 'anotherValue',
+//         },
+//     },
+// };
+// const cloneDeep = (object) => {
+//     const result = {};
+//     const entries = Object.entries(object);
+//     for (const [key, value] of entries) {
+//         result[key] = isObject(value) ? cloneDeep(value) : value;
+//     }
+//
+//     return result;
+// };
+// console.log (cloneDeep(data))
 //END
+// Агрегация данных
+// const users = [
+//     { name: 'Petr', age: 4 },
+//     { name: 'Igor', age: 19 },
+//     { name: 'Vovan', age: 4 },
+//     { name: 'Matvey', age: 16 },
+// ];
+//
+// const usersByAge = {};
+// for (const { age, name } of users) {
+//     // Проверяем добавлено ли уже свойство age в результирующий объект или нет
+//     if (!Object.hasOwn(usersByAge, age)) {
+//         usersByAge[age] = [];
+//     }
+//     usersByAge[age].push(name);
+// }
+//
+// console.log(usersByAge);
 
+// Реализация метода reduce() при агрегации данных
+const users = [
+    { name: 'Igor', amount: 19 },
+    { name: 'Danil', amount: 1 },
+    { name: 'Vovan', amount: 4 },
+    { name: 'Matvey', amount: 16 },
+];
 
+const sum = users.reduce((acc, user) => {
+    const newAcc = acc + user.amount;
+    return newAcc;
+}, 0);
+// const sum = users.reduce((acc, user) => acc + user.amount, 0);
+
+// Распишем
+// user: Igor, acc = 0, return value 0 + 19
+// user: Danil, acc = 19, return value 19 + 1
+// user: Vovan, acc = 20, return value 20 + 4
+// user: Matvey, acc = 24, return value 24 + 16
+console.log(sum); // => 40
